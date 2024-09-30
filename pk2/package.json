@@ -1,0 +1,17 @@
+{
+  "name": "pk2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "test": "mocha --recursive --extension ts './*test.js'"
+  },
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "ts-node": "^10.9.2",
+    "chai": "^4.1.2"
+  }
+}

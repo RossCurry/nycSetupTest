@@ -1,0 +1,23 @@
+{
+  "name": "pk1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "./node_modules/.bin/tsc && node ./dist/index.js",
+    "test": "yarn dev && mocha --recursive --extension ts 'dist/*.test.js'"
+  },
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.8",
+    "chai": "^4.1.2",
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}
