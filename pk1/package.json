@@ -9,7 +9,8 @@
     "test": "yarn dev && mocha --recursive --extension ts 'dist/*.test.js'",
     "nyc": "nyc mocha --recursive --extension ts 'dist/*.test.js'",
     "nyc-use-config": "nyc mocha --require ts-node/register --recursive --extension ts 'dist/*.test.js'",
-    "nycts-no-config-works": "nyc --all --exclude 'dist' --exclude '*.test.{js,ts}' mocha --require ts-node/register --recursive --extension ['ts','js'] './*.test.{js,ts}'"
+    "nycts-no-config-works": "nyc --all --exclude 'dist' --exclude '*.test.{js,ts}' --require ts-node/register --recursive --extension ['ts','js'] './*.test.{js,ts}'",
+    "nyc:coverage": "nyc --all --exclude 'dist' --exclude '*.test.{js,ts}' --reporter text --reporter cobertura mocha --require ts-node/register --recursive --extension ['ts','js'] './*.test.{js,ts}'"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",

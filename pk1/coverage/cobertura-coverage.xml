@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="39" lines-covered="11" line-rate="0.282" branches-valid="18" branches-covered="4" branch-rate="0.22219999999999998" timestamp="1727777429048" complexity="0" version="0.1">
+  <sources>
+    <source>/Users/ross.curry/ross/nycInstrumentation/pk1</source>
+  </sources>
+  <packages>
+    <package name="main" line-rate="0.282" branch-rate="0.22219999999999998">
+      <classes>
+        <class name="bar.ts" filename="bar.ts" line-rate="0.3125" branch-rate="0.3333">
+          <methods>
+            <method name="(anonymous_0)" hits="1" signature="()V">
+              <lines>
+                <line number="2" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="15" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="4" hits="1" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="5" hits="1" branch="false"/>
+            <line number="7" hits="0" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="15" hits="1" branch="false"/>
+            <line number="16" hits="0" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="17" hits="0" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/1)"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="23" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="foo.js" filename="foo.js" line-rate="0.3529" branch-rate="0.1666">
+          <methods>
+            <method name="(anonymous_0)" hits="1" signature="()V">
+              <lines>
+                <line number="2" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="15" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="1" branch="false"/>
+            <line number="3" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="4" hits="1" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="5" hits="1" branch="false"/>
+            <line number="7" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="15" hits="1" branch="false"/>
+            <line number="16" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="17" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="23" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="28" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.ts" filename="index.ts" line-rate="0" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
