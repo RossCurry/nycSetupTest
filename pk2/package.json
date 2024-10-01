@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "test": "mocha --recursive --extension ts './*test.js'"
+    "test": "mocha --recursive --extension ts './*test.js'",
+    "nyc": "nyc  mocha --recursive --extension ts './*test.js'"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",

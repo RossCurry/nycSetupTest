@@ -1,8 +1,11 @@
 {
-  "name": "nycInstrumentation",
+  "name": "nyc-test-setup",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["pk1", "pk2"]
+  "workspaces": ["pk1", "pk2"],
+  "scripts": {
+    "nyc": "yarn workspaces run nyc"
+  }
 }

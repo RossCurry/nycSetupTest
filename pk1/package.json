@@ -6,7 +6,10 @@
   "type": "commonjs",
   "scripts": {
     "dev": "./node_modules/.bin/tsc && node ./dist/index.js",
-    "test": "yarn dev && mocha --recursive --extension ts 'dist/*.test.js'"
+    "test": "yarn dev && mocha --recursive --extension ts 'dist/*.test.js'",
+    "nyc": "nyc mocha --recursive --extension ts 'dist/*.test.js'",
+    "nyc-use-config": "nyc mocha --require ts-node/register --recursive --extension ts 'dist/*.test.js'",
+    "nycts-no-config-works": "nyc --all --exclude 'dist' --exclude '*.test.{js,ts}' mocha --require ts-node/register --recursive --extension ['ts','js'] './*.test.{js,ts}'"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
