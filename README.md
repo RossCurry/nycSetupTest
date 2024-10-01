@@ -7,8 +7,13 @@ The idea being to late upload a coverage xml file for gitlab.
 Using this example monorepo I have discovered that the `.nycrc.json` file does not work as expected. Possibly parsed too late.
 I have instead got the example to work using just the command line.
 
+## Structure
+
+- pk1: has the mixed .ts and .js files.
+- pk2: has just .js files.
+
 ### Command to get the coverage output:
-pk1 has the mixed .ts and .js files.
+
 So from `./pk1`, run:
 
 ```
